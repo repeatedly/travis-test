@@ -10,7 +10,7 @@ install:
   - unzip dmd.${DMD_VERSION}.zip
 
 script:
-  - DMD=./dmd2/linux/bin32/dmd MODEL=32 make -f posix.make unittest
+  - DMD=./dmd2/linux/bin32/dmd MODEL=32 make -f posix.mak unittest
 
 branches:
   only:
